@@ -1,0 +1,79 @@
+.chat-container {
+   display: none;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #60c8b3;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+#chaticon {
+    
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #007bff;
+        color: white;
+        font-size: 24px;
+        padding: 10px 15px;
+        border-radius: 50%;           
+        border: none;                 
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        z-index: 1000;
+      
+      
+  }
+.chat-box {
+    border: 1px solid #b88686;
+    padding: 15px;
+    height: 250px;
+    overflow-y: auto;
+    background: white;
+    margin-bottom: 20px;
+}
+.question-buttons {
+    margin-bottom: 15px;
+}
+.question-buttons button, .input-area button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+.question-buttons button:hover, .input-area button:hover {
+    background-color: #0056b3;
+}
+.input-area {
+    display: flex;
+    gap: 10px;
+}
+.input-area input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+body {
+    
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f15050, #ff6666); /* Light blue gradient */
+}
+
+.heading 
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.bot-icon
+{
+    width: 40px; 
+    height: auto;
+}
