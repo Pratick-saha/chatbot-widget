@@ -1,3 +1,26 @@
+const questions = [
+    "What are the courses?",
+    "Where should I login for student?",
+    "Where should I login for faculty?",
+    "What streams are available?"
+];
+const answers = {
+    "courses": "We offer:<br>- B.Tech<br>- BBA<br>- BCA<br>- MBA<br>- MCA<br>and many more programs.",
+    "student login": "Students can login at:<br>https://institute.edu/student-login",
+    "faculty login": "Faculty members can login at:<br>https://institute.edu/faculty-login",
+    "departments" : "we have :<br>- Depatment of computer science and Technology <br>- Depatment of Civil Engineering <br>- Depatment of Mechanical Engineer ",
+    "streams": "Streams include:<br>- Computer Science<br>- Electronics<br>- Mechanical<br>- Civil<br>- Management."
+};
+
+const chatBox = document.getElementById("chatBox");
+const questionButtons = document.getElementById("questionButtons");
+
+questions.forEach(q => {
+    const btn = document.createElement("button");
+    btn.textContent = q;
+    btn.onclick = () => respond(q);
+    questionButtons.appendChild(btn);       //question show in the button form 
+});
 (function () {
     const style = document.createElement("style");
     style.textContent = `
