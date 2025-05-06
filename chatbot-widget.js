@@ -1,9 +1,4 @@
-const questions = [
-    "What are the courses?",
-    "Where should I login for student?",
-    "Where should I login for faculty?",
-    "What streams are available?"
-];
+
 const answers = {
     "courses": "We offer:<br>- B.Tech<br>- BBA<br>- BCA<br>- MBA<br>- MCA<br>and many more programs.",
     "student login": "Students can login at:<br>https://institute.edu/student-login",
